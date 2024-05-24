@@ -1,0 +1,91 @@
+body.colorlib-body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .colorlib-body #colorlib-notfound {
+    height:100vh;
+  }
+  
+  #colorlib-notfound {
+    position: relative;
+    height: 60vh;
+  }
+  
+  #colorlib-notfound .colorlib-notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .colorlib-notfound {
+    max-width: 767px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .colorlib-notfound .colorlib-notfound-404 {
+    position: relative;
+    height: 220px;
+  }
+  
+  .colorlib-notfound .colorlib-notfound-404 h1.colorlib-heading {
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 186px;
+    font-weight: 200;
+    margin: 0px;
+    background: linear-gradient(130deg, #ffa34f, #ff6f68);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: uppercase;
+  }
+  
+  .colorlib-notfound h2.colorlib-heading {
+    font-family: 'Kanit', sans-serif;
+    font-size: 33px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+  }
+  
+  .colorlib-notfound .colorlib-notfound-404 h1.colorlib-heading:after,
+  .colorlib-notfound .colorlib-notfound-404 h1.colorlib-heading:before,
+  .colorlib-notfound h2.colorlib-heading:after,
+  .colorlib-notfound h2.colorlib-heading:before {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .colorlib-notfound .colorlib-notfound-404 {
+      position: relative;
+      height: 168px;
+    }
+  
+    .colorlib-notfound .colorlib-notfound-404 h1.colorlib-heading {
+      font-size: 142px;
+    }
+  
+    .colorlib-notfound h2.colorlib-heading {
+      font-size: 22px;
+    }
+  }
+  
+  @media only screen and (max-height:600px){
+    #colorlib-notfound {
+      height:100vh;
+    }
+  }

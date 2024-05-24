@@ -1,0 +1,108 @@
+body.colorlib-body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .colorlib-body #colorlib-notfound {
+    height:100vh;
+  }
+  
+  #colorlib-notfound {
+    position: relative;
+    height: 60vh;
+  }
+  
+  #colorlib-notfound .colorlib-notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .colorlib-notfound {
+    max-width: 410px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .colorlib-notfound .colorlib-notfound-404 {
+    height: 280px;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .colorlib-notfound .colorlib-notfound-404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 230px;
+    margin: 0px;
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background: url('../public/assets/images/bg.jpg') no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  .colorlib-notfound h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  
+  .colorlib-notfound .colorlib-notfound-404 h1:after,
+  .colorlib-notfound .colorlib-notfound-404 h1:before,
+  .colorlib-notfound h2:after,
+  .colorlib-notfound h2:before {
+    display:none;
+  }
+  
+  .colorlib-notfound p {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  
+  .colorlib-notfound a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #F44336;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 4px 15px -5px #F44336;
+            box-shadow: 0px 4px 15px -5px #F44336;
+  }
+  
+  
+  @media only screen and (max-width: 767px) {
+      .colorlib-notfound .colorlib-notfound-404 {
+        height: 142px;
+      }
+      .colorlib-notfound .colorlib-notfound-404 h1 {
+        font-size: 112px;
+      }
+  }
+  
+  @media only screen and (max-height:600px){
+    #colorlib-notfound {
+      height:100vh;
+    }
+  }
